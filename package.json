@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test --code-coverage",
     "cover": "ng test --no-watch --code-coverage",
-    "eslint": "eslint ./src --quiet"
+    "eslint": "eslint ./src --quiet",
+    "lint": "sh ./bash-scripts/lint.sh",
+    "testing": "sh ./bash-scripts/cover.sh"
   },
   "private": true,
   "dependencies": {
